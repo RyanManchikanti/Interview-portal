@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+    background: -webkit-linear-gradient(left, #131816, #f9fffd);
+    background: linear-gradient(to right, #181717, #080c0b);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+main {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 1 rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(255, 252, 252);
+}
+
+.delete-row-btn{
+    border-radius: 10px;
+    background-color: black;
+}
+
+.edit-row-btn{
+
+        border-radius: 10px;
+        background-color: black;
+
+}
+
+
+/* .form-group{
+
+    background-color: white;
+} */
+
+
+.header{
+
+    color: white;
+}
+
+.tables{
+    color: white;
+}
+table {
+    margin: 50px auto;
+    width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
